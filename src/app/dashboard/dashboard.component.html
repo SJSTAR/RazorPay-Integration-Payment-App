@@ -1,0 +1,121 @@
+<link
+  rel="stylesheet"
+  href="https://necolas.github.io/normalize.css/3.0.2/normalize.css"
+/>
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Roboto:400,300,700&subset=latin,latin-ext"
+/>
+
+<!-- navbar -->
+<div class="main">
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">
+        <a>
+          <img
+            style="width: 100px; margin-right: 30px"
+            src="https://upload.wikimedia.org/wikipedia/en/f/fe/The_NorthCap_University_logo.png"
+            alt=""
+          />
+          The NorthCap University</a
+        >
+      </h1>
+      <ul class="nav nav-right">
+        <li>
+          <a (click)="logout()"
+            ><img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABiklEQVR4nM3Wz0tVQRQH8E/2yMoSXEqLDBILDHdiEJRtHm0FA5ctciEkUcQzN7YJpU0/Vu3cSCs3EY+I1I0L2wRuggr8FakVUf0JMjLC5XG9vbw38QvDcM85c75nzpw5czkg6MIw7qKMUlGOT2Ian/EIY5jFB3QWQfAaz3G0Rj6Ar2jN4zyk4n1GOsbxJA/BYwxl6NvwKQ/BJK5n6JvwPQ/BKB5m6C9hPg/BafzEmRTdYSzghpy4iRVcw6Eoa8dMLN8GBaCMd/iFdazGCxd2USiOoTnx3Y0HmIhzT5FkZSzFnQziDj7i3L86KqEDvTH3O3iBvr1Gdwq3MYffWMQr9CdsqriSsvZqTGUqzmIKG3iGyyk96G8EoSG+TSMJ5fYFt7IiSCE4gXuoxDESA3yTKOttBMNv6kc1EhyPB7xDcB8/8LJ2wV4JavE0nteR/0VwMc15QCP+xAekZZdRSthP1VSVep7RcBs3Y0tIG5WEbbgXa3FNkId5GefrzkEduBAPNbSK0NrDj8H+YwtZiUsu6wtzAwAAAABJRU5ErkJggg=="
+          /></a>
+        </li>
+      </ul>
+    </div>
+    <!--/.container-->
+  </nav>
+  <!--/.navbar-->
+
+  <div class="container bottom mx-auto mt-4">
+    <div class="row" style="margin-top: 27px">
+      <div class="col-md-4">
+        <div class="card" style="width: 28rem">
+          <img
+            style="height: 300px"
+            src="assets/fees.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Students Fees</h5>
+            <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+            <p class="card-text">Click Below to pay your academic fees</p>
+            <br />
+            <a class="btn mr-2" (click)="paynow(3)"
+              ><i class="fas fa-link"></i> Pay</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 28rem">
+          <img
+            style="height: 300px"
+            src="assets/library.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Library Fine</h5>
+            <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+            <p class="card-text">Click Below to pay you library fine</p>
+            <br />
+            <a class="btn mr-2" (click)="paynow(1)"
+              ><i class="fas fa-link"></i> Pay</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 28rem">
+          <img
+            style="height: 300px"
+            src="assets/cafe.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Cafeteria Card</h5>
+            <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+            <p class="card-text">
+              Enter amount to recharge and then click pay button
+              <!-- <input  type="number" placeholder="Amount"  > -->
+            </p>
+            <br />
+            <a class="btn mr-2" (click)="paynow(2)"
+              ><i class="fas fa-link"></i> Pay</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card" style="width: 28rem">
+          <img
+            style="height: 300px"
+            src="assets/event.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Event Registration Fees</h5>
+            <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+            <p class="card-text">Click below to pay event registration fees</p>
+            <br />
+            <a class="btn mr-2" (click)="paynow(4)"
+              ><i class="fas fa-link"></i> Pay</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

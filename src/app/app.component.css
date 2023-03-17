@@ -1,0 +1,8 @@
+.main{
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(#12dafdd4,#fd00ff);
+}
+::ng-deep .mat-mdc-raised-button{
+  background-color: rgba(1, 129, 183, 0.793) !important;
+}

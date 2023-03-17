@@ -1,0 +1,145 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto ', sans-serif;
+    font-size: 14px;
+    color: #212121;
+    line-height: 1.4;
+    background-color: #F9F9F9;
+  }
+
+  .container {
+    margin: 0 auto;
+  }
+.bottom{
+  height: calc(100vh - 85px);
+ margin-top: 0px !important;
+  overflow: auto;
+  margin-right: 0px !important;
+  /* margin: 0px !important; */
+  padding: auto;
+}
+
+
+  /* navbar */
+  .navbar {
+    padding: 20px 0;
+    /* margin-bottom: 20px; */
+    width: 100%;
+    height: 85px;
+    background-color: #2196F3;
+  }
+
+  .logo,
+  .nav {
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* nav links */
+  .nav {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .nav li {
+    display: inline-block;
+    margin-left: 40px;
+  }
+
+  .navbar a {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+  .navbar a:hover {
+    color: #DDD;
+  }
+
+  /* if you want pull right nav links */
+  .nav-right {
+    float: right;
+    line-height: 39px;
+  }
+
+
+
+
+  mat-card{
+    margin-top: 30px;
+    border:#212121 !important;
+  }
+  .select{
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  p{
+    display: inline;
+
+  }
+
+  mat-form-field{
+    margin-left: 40px;
+  }
+
+  ngx-gauge{
+    margin-left: 130px;
+  }
+
+  .card1{
+    width: 49%;
+    float:left;
+  }
+
+  .card2{
+    width: 49%;
+    float: right;
+  }
+  :root {
+    --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important;
+  }
+
+  body {
+    background: #111 !important;
+  }
+::ng-deep .col-md-4{
+  width: 50%;
+}
+.main{
+  height: 100vh;
+  background-size: cover;
+  /* background-image: url('/assets/back.png'); */
+  background-image: linear-gradient(#12dafdd4,#fd00ff);
+  /* opacity: 0.3; */
+}
+  .card {
+    background: #222;
+    border: 1px solid #dd2476;
+    color: rgba(250, 250, 250, 0.8);
+    margin-bottom: 2rem;
+  }
+
+  .btn {
+    border: 5px solid rgb(37 255 255);
+    border-image-slice: 1;
+    background: rgb(37 255 255) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    border-image-source:  rgb(37 255 255) !important;
+    text-decoration: none;
+    transition: all .4s ease;
+    margin-left: 40%;
+    margin-top: 20px;
+  }
+
+  .btn:hover, .btn:focus {
+        background: var(--gradient) !important;
+    -webkit-background-clip: none !important;
+    -webkit-text-fill-color: #fff !important;
+    border: 5px solid #fff !important;
+    box-shadow: #222 1px 0 10px;
+    text-decoration: underline;
+  }

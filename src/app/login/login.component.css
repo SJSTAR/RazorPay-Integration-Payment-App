@@ -1,0 +1,42 @@
+.mat2{
+    max-width: 400px;
+    margin: 2em auto;
+    text-align: center;
+  }
+  .signin-content {
+    padding: 60px 1rem;
+  }
+  .full-width-input {
+    width: 100%;
+  }
+
+  p{
+    font-size: 45px;
+    font-style: normal;
+    width: 100%;
+    font-family:  "Times New Roman", Times, serif;
+    color: rgba(1, 129, 183, 0.793);
+  }
+
+  .mat1{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  button{
+    width: 100%;
+  }
+::ng-deep .mdc-button .mdc-button__label{
+  color: white;
+}
+  a{
+    font-size: 10px;
+    color: rgb(255, 0, 0);
+    /* margin-left: 70%; */
+
+  }
+
+  img{
+    width: fit-content;
+  }
